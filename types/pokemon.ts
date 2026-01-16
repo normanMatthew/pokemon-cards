@@ -16,14 +16,14 @@ export interface PokemonStat {
 }
 
 export interface PokemonSprites {
-    front_default: string;
-    front_shiny?: string;
+    front_default: string | null;
+    front_shiny?: string | null;
     other?: {
-        'official-artwork': {
-            front_default: string;
+        'official-artwork'?: {
+            front_default: string | null;
         };
         home?: {
-            front_default: string;
+            front_default: string |null;
         };
     };
 }
@@ -35,7 +35,7 @@ export interface Pokemon {
     weight: number;
     types: PokemonType[];
     stats: PokemonStat[];
-    sprites: PokemonSprites[];
+    sprites: PokemonSprites;
     abilities: {
         ability: {
             name: string;
