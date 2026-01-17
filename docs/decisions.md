@@ -13,7 +13,6 @@ This file tracks key technical decisions and their rationale.
 - App Router is the modern, recommended approach
 - Better Server Component support
 - Simpler data fetching patterns
-- Shows knowledge of current Next.js best practices
 
 **Trade-offs**: 
 - Slightly steeper learning curve
@@ -46,7 +45,6 @@ This file tracks key technical decisions and their rationale.
 - Industry standard for production React/Next.js
 - Catches errors at compile time
 - Better IDE support and autocomplete
-- Demonstrates professional development practices
 - Interfaces for API responses improve code quality
 
 **Trade-offs**:
@@ -77,7 +75,6 @@ This file tracks key technical decisions and their rationale.
 **Rationale**:
 - DRY principle - display 3 cards with same component
 - Easy to maintain and update styling
-- Demonstrates component reusability
 - Props-based approach is React best practice
 
 ---
@@ -105,13 +102,12 @@ This file tracks key technical decisions and their rationale.
 - Professional development practice
 - Free for public repositories
 - Multi-node version testing ensures compatibility
-- Demonstrates DevOps awareness
 
 **Pipeline includes**:
 - Linting (ESLint)
 - Type checking (TypeScript)
 - Build verification
-- Matrix testing on Node 18.x and 20.x
+- Matrix testing on 20.x
 
 **Trade-offs**:
 - Slightly longer PR/push feedback time
